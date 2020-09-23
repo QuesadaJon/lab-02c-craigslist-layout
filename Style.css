@@ -28,26 +28,31 @@ main {
     margin-right: 20px;
     grid-template-rows: 50px 40px 30px 50px 135px 180px 180px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .wrapper {
     width: 100%;
 }
 
-.title {
-    font-size: 1.5em;
+.middle {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    box-sizing: border-box;
+    margin-top: 10px;
 }
 
-.title-middle {
+.middle-header {
     display: grid;
-    grid-template-rows: 45px ;
-    width: 660px;
-    height: 80px;
+    font-size: 1.5em;
     background-color: rgb(231, 230, 230);
-    box-sizing: border-box;
+    width: 660px;
+    height: 45px;
 }
 
 .inner-middle {
     display: grid;
     grid-template-columns: 1fr 1fr .5fr;
+    font-size: 1em;
+
 }
